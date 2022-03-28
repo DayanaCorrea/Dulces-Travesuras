@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    font-size: 62,5%;}
+
+
+
+
+
+.logo-fixed{width: 150px;
+            z-index: 99px;
+            position: fixed;}
+
+
+.banner{width: 1500px;
+        height: 200px;
+        padding: 0px;
+        margin: 0px;}
+
+
+.body{background-color: #cd86ee57;
+}
+
+
+.menu{display: flex;
+     flex-direction: row;
+     justify-content: center;
+     background: rgb(131,58,180);
+     background: linear-gradient(77deg, rgba(131,58,180,1) 0%, rgba(221,194,220,0.8211659663865546) 53%, rgba(252,176,69,1) 100%);}
+    
+  
+.menu li{
+         font-family: 'verdana', sans-serif;
+         color: #0e0101;
+         text-transform: uppercase;
+         text-align: center;
+         display: inline;
+         font-size: 14px;
+         font-weight: 600;
+         list-style-type: none;
+         margin: 5px;
+         padding-right: 80px;
+         padding: 5px;
+         position: static;
+         background-color:#f54ea2}
+
+    
+.menu a{text-decoration-line: none}
+
+.menu li {text-decoration: none;
+          display: inline;}
+
+
+
+    h1 {text-align: center;
+        color: #ff0496;
+        text-transform: uppercase;
+        font-family: 'Kalam', cursive;
+        font-weight: bold;
+        top: 70px;
+        left: 580px;
+        position: absolute;
+        background-color:hsl(305, 70%, 82%);}
+
+
+    h2 {text-align: center;
+        color: #ff0496;
+        font-family: 'Kalam', cursive;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 10px;}
+        
+    
+    h3 {color: #4d0581;
+        font-family: 'Kalam', cursive;
+        font-weight: bold;
+        text-align: center; 
+        margin-bottom: 10px;}
+        
+    h4 {color: #08000e;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Geneva, Tahoma, sans-serif, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;}
+
+
+.main{display: flex;
+      flex-direction: row;
+      align-items: center;
+      background: rgb(131,58,180);
+      background: linear-gradient(77deg, rgba(131,58,180,1) 0%, rgba(221,194,220,0.8211659663865546) 53%, rgba(252,176,69,1) 100%);
+}
+
+
+ .main p{width: 690px;
+        height: 185px;
+        color: #242424;
+        text-align: right;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 100px;
+        font-family: 'Lato', sans-serif;}
+          
+
+.decoración{width: 550px;
+            height: 350px;
+            margin-top: 80px;
+            margin-bottom: 30px;
+            margin-left: 20px;
+            margin-right: 10px;}
+
+
+ p{color: #242424; 
+  font-family: 'Lato', sans-serif;}
+
+
+.section0{display: flex;
+         flex-direction: row;
+         flex-wrap: nowrap;
+         justify-content: center;}
+    
+       
+
+ .jugando{
+         width: 350px;
+         height: 250px;
+         top: 10px;
+         left: 350px;
+         right: 10px;
+         margin: 25px;
+         padding: 50px;}
+    
+  
+ .boda{width: 350px;
+      height: 250px;
+      top: 10px;
+      left: 350px;
+      margin: 25px;
+      padding: 50px;}
+    
+    
+
+ .quinceañera{width: 350px;
+              height: 250px;
+              top: 10px;
+              left: 400px;
+              margin: 25px;
+              padding: 50px;}
+
+
+.section1{display: flex;
+         flex-direction: row;
+         justify-content: center;}
+        
+        
+
+
+.nosotros{width: 690px;
+         color: #242424;
+         font-weight: 400;
+         line-height: 26px;
+         margin-top: 100px;
+         margin-bottom: 30px;
+         font-family: 'Lato', sans-serif;}
+           
+
+.entradaNosotros{height: 350px;
+                 margin-top: 5px;
+                 margin-bottom: 30px;
+                 margin-left: 700px;
+                 margin-right: 10px;}
+                
+
+
+.section2{display: flex;
+         justify-content: center;
+         background: rgb(238,174,202);
+         background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(156,148,233,1) 100%);}
+
+
+
+
+.objetivo{width: 690px;
+    color: #242424;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;}
+
+
+
+.section3{display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+         align-items: center;}
+ 
+         
+.tabla{width:400px;
+       height: 350px;
+       top: 5px;
+       left: 500px;
+       margin: 25px;
+       padding: 50px;}
+
+
+.globoServicios{width:400px;
+                height: 350px;
+                top: 5px;
+                left: 600px;
+                margin: 25px;
+                padding: 50px;}
+
+
+.section4{display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-top: 30px;
+          background-color: #a930e673;}
+    
+
+
+.cumple{width:550px;
+        height: 350px;
+        position:relative;
+        top: 10px;
+        left: 350px;
+        margin: 25px;
+        padding: 50px;}
+
+.novios{width:550px;
+        height: 350px;
+        position:relative;
+        top: 10px;
+        left: 350px;
+        margin: 25px;
+        padding: 50px;}
+
+.quince{width:550px;
+        height: 350px;
+        position:relative;
+        top: 10px;
+        left: 350px;
+        margin: 25px;
+        padding: 50px;}
+
+
+
+.section5{display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          text-align:center;
+          margin-top: 50px;
+          margin-bottom: 40px;
+          background: rgb(34,193,195);
+          background: linear-gradient(194deg, rgba(34,193,195,1) 0%, rgba(203,246,38,1) 100%);}
+
+
+
+.section6{display: flex;
+          justify-content: center;
+          margin-bottom: 40px;}
+         
+
+
+.section7{display: flex;
+          flex-direction: row;
+          background-color: #c986eb;}
+
+
+
+.footer{background-color: #c986eb;
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        text-align: center;}
+       
