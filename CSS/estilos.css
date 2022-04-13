@@ -48,11 +48,6 @@ html{font-size: 62, 5%;}
 
 
 
-.navbar:hover{border: 2px solid #210336;}
-
-
-
-
 
 h1{text-align: center;
    color: #ff0496;
@@ -94,7 +89,7 @@ h4{color: #08000e;
            padding: 1em;}
 
 
-.main:hover{border: 1px solid #4d0581;}
+
 
 
 .main{display: flex;
@@ -130,8 +125,6 @@ p{color: #242424;
   font-family: 'Lato', sans-serif;}
 
 
-
-.section0:hover{border: 2px solid #eef10e;}
 
 
 .section0{display: flex;
@@ -173,9 +166,6 @@ p{color: #242424;
                 padding: 1em;
                 justify-items: center;}
 
-
-
-.section1:hover{border: 2px solid #3d042f;}
 
 
 
@@ -262,13 +252,11 @@ p{color: #242424;
            text-align: center;
            background-color: #a930e673;
            position: relative;
-           top: 10px;
-           bottom: 10px;}
+           top: 10px;}
 
            
 .carousel{margin: 0 auto;
           bottom: 10px;}
-
 
 
 
@@ -316,8 +304,7 @@ p{color: #242424;
                     z-index: 100px;}
 
 
-        .banner{width: 100vw;
-                height: 50vh;}
+        .banner{width: 100vw;}
 
 
         .navbar{display: flex;
