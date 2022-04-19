@@ -11,13 +11,13 @@ html{font-size: 62, 5%;}
 
 
 
-.logo-fixed{width: 10vw;
+.logo-fixed{width: 8vw;
             z-index: 100px;
             position: fixed;}
 
 
 .banner{width: 100vw;
-        height: 50vh;
+        height: 40vh;
         padding: 0px;
         margin: 0px;}
 
@@ -115,9 +115,9 @@ h4{color: #08000e;
                 margin-right: 20px;}
 
 
-p{color: #242424;
-  font-family: 'Lato', sans-serif;}
 
+p{color: #242424;
+ font-family: 'Lato', sans-serif;}
 
 
 
@@ -156,21 +156,11 @@ p{color: #242424;
 
 
 
-.grids-section1{display: grid;
-                padding: 1em;
-                justify-items: center;}
-
-
-
-
-
 .section1{display: flex;
           flex-direction: row;
           align-items: center;
           justify-content: center;
           background-color: #eb86a8;}
-
-
 
 
 .section1 p{width: 690px;
@@ -269,18 +259,15 @@ p{color: #242424;
          margin-bottom: 40px;}
 
 
-
 .section7{display: flex;
-         flex-direction: row;
-         background-color: #c986eb;}
-
-
-
+          flex-direction: row;}
+  
 .footer{background-color: #c986eb;
         font-family: 'Lato', sans-serif;
         font-size: 18px;
-        text-align: center;}
-
+        text-align: center;}     
+       
+       
 
 
 /* TAMAÑO MOBILE */
@@ -290,7 +277,7 @@ p{color: #242424;
          h1 {display: none;}
 
 
-        .logo-fixed{width: 20vw;
+        .logo-fixed{width: 15vw;
                     z-index: 100px;}
 
 
@@ -304,18 +291,18 @@ p{color: #242424;
                 justify-content: center;}
 
 
-        .main{display: flex;
-              flex-direction: column;
-              align-items: center;}
+        .section{display: flex;
+                 flex-direction: column;
+                 align-items: center;}
 
 
-        .main p{width: 100%;
+        .section p{width: 100%;
                 text-align: center;
                 vertical-align: middle;}
 
 
 
-        .decoración{width: 88%;
+        .img-descripcion{width: 88%;
                     vertical-align: middle;}
 
 
@@ -372,7 +359,8 @@ p{color: #242424;
                   align-items: center;}
        
 
-        .map-responsive{width: 100%;
+        .map-responsive{overflow-x: hidden;
+                        width: 100%;
                         vertical-align: middle;}
                               
         
