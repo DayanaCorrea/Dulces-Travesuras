@@ -4,34 +4,29 @@
 html{font-size: 62, 5%;}
 
 
-
-
 .body{background-color: #cd86ee57;
-        overflow-x: hidden;}
+      overflow-x: hidden;}
+
+p{color: #242424;
+  font-family: 'Lato', sans-serif;}
 
 
+/* COMIENZA HEADER */
 
 .logo-fixed{width: 8vw;
             z-index: 100px;
             position: fixed;}
-
 
 .banner{width: 100vw;
         height: 40vh;
         padding: 0px;
         margin: 0px;}
 
-
-
-
 .navbar{display: flex;
         flex-direction: row;
         justify-content: center;
         background: rgb(131, 58, 180);
         background: linear-gradient(77deg, rgba(131, 58, 180, 1) 0%, rgba(221, 194, 220, 0.8211659663865546) 53%, rgba(252, 176, 69, 1) 100%);}
-
-
-
 
 .navbar li{font-family: 'verdana', sans-serif;
            color: #0c0101;
@@ -42,8 +37,7 @@ html{font-size: 62, 5%;}
            list-style-type: none;
            margin: 5px;
            padding: 5px;
-           background-color: #f54ea2}
-
+           background-color: #f54ea2;}
 
 
 h1{text-align: center;
@@ -57,14 +51,12 @@ h1{text-align: center;
    position: absolute;
    background-color: hsl(305, 70%, 82%);}
 
-
 h2{text-align: center;
    color: #ff0496;
    font-family: 'Kalam', cursive;
    font-weight: bold;
    margin-top: 30px;
    margin-bottom: 10px;}
-
 
 h3{color: #4d0581;
   font-family: 'Kalam', cursive;
@@ -73,7 +65,6 @@ h3{color: #4d0581;
   margin-top: 20px;
   margin-bottom: 30px;}
 
-
 h4{color: #08000e;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Geneva, Tahoma, sans-serif, sans-serif;
   font-weight: bold;
@@ -81,11 +72,10 @@ h4{color: #08000e;
   margin-bottom: 10px;}
 
 
+/* COMIENZA DESCRIPCIÓN */
 
 .grid-descripcion{display: grid;
                   padding: 1em;}
-
-
 
 .section{display: flex;
          flex-direction: row;
@@ -94,9 +84,7 @@ h4{color: #08000e;
          background: rgb(131, 58, 180);
          background: linear-gradient(77deg, rgba(131, 58, 180, 1) 0%, rgba(221, 194, 220, 0.8211659663865546) 53%, rgba(252, 176, 69, 1) 100%);}
 
-
 .animate__zoomIn{animation-duration: 6s;}
-
 
 .section p{width: 690px;
            height: 185px;
@@ -106,7 +94,6 @@ h4{color: #08000e;
            margin-top: 100px;
            font-family: 'Lato', sans-serif;}
 
-
 .img-descripcion{width: 40vw;
                 height: 50vh;
                 margin-top: 30px;
@@ -115,11 +102,7 @@ h4{color: #08000e;
                 margin-right: 20px;}
 
 
-
-p{color: #242424;
- font-family: 'Lato', sans-serif;}
-
-
+ /* COMIENZA NUESTRA EXPERIENCIA */
 
 .section0{display: flex;
          flex-direction: row;
@@ -129,9 +112,7 @@ p{color: #242424;
          background: rgb(202, 41, 92);
          background: linear-gradient(90deg, rgba(202, 41, 92, 1) 4%, rgba(253, 29, 29, 0.3785889355742297) 38%, rgba(184, 122, 226, 1) 70%, rgba(252, 176, 69, 1) 94%);}
 
-
 .animate__heartBeat{animation-duration: 30s;}
-
 
 .jugando{width: 350px;
          height: 250px;
@@ -139,14 +120,11 @@ p{color: #242424;
          margin: 25px;
          padding: 50px;}
 
-
 .boda{width: 350px;
       height: 250px;
       top: 10px;
       margin: 25px;
       padding: 50px;}
-
-
 
 .quinceañera{width: 350px;
              height: 250px;
@@ -155,13 +133,13 @@ p{color: #242424;
              padding: 50px;}
 
 
+/* COMIENZA SECCIÓN NOSOTROS */
 
 .section1{display: flex;
           flex-direction: row;
           align-items: center;
           justify-content: center;
           background-color: #eb86a8;}
-
 
 .section1 p{width: 690px;
             height: 185px;
@@ -171,14 +149,11 @@ p{color: #242424;
             margin-top: 100px;
             font-family: 'Lato', sans-serif;}
 
-
 .entradaNosotros{height: 350px;
                  margin-top: 35px;
                  margin-bottom: 30px;
                  margin-left: 20px;
                  margin-right: 20px;}
-
-
 
 .section2{display: flex;
           flex-direction: column;
@@ -186,9 +161,6 @@ p{color: #242424;
           justify-content: center;
           background: rgb(238, 174, 202);
           background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(156, 148, 233, 1) 100%);}
-
-
-
 
 .objetivo{width: 690px;
           color: #242424;
@@ -199,6 +171,7 @@ p{color: #242424;
           font-family: 'Lato', sans-serif;}
 
 
+/* COMIENZA SECCIÓN SERVICIOS */
 
 .section3{display: flex;
           flex-direction: row;
@@ -206,25 +179,25 @@ p{color: #242424;
           align-items: center;
           background-color: rgb(238, 176, 106);}
 
-
 .table{width: 400px;
        height: 350px;
        text-align: center;
        top: 5px;
-       left: 500px;
+       left: 20px;
        margin: 25px;
        padding: 50px;
        border-color: #0c0101;
        background-color: #e2b7f3;}
 
+.globoServicios{width: 400px;
+                height: 350px;
+                margin-top: 35px;
+                margin-bottom: 30px;
+                margin-left: 20px;
+                margin-right: 20px;}
 
-.globoServicios{width: 500px;
-                height: 450px;
-                top: 5px;
-                left: 500px;
-                margin: 25px;
-                padding: 50px;}
 
+/* COMIENZA SECCIÓN GALERÍA */
 
 .section4{display: flex;
           flex-direction: column;
@@ -232,13 +205,14 @@ p{color: #242424;
           text-align: center;
           background-color: #a930e673;
           position: relative;}
-
-           
+        
 .carousel{margin: 0 auto;
           width: 50%;
+          padding: 10px;
           bottom: 10px;}
 
-
+ 
+/* COMIENZA SECCIÓN CONTACTO */ 
 
 .section5{display: flex;
           flex-direction: row;
@@ -249,40 +223,40 @@ p{color: #242424;
           background: rgb(34, 193, 195);
           background: linear-gradient(194deg, rgba(34, 193, 195, 1) 0%, rgba(203, 246, 38, 1) 100%);}
 
-
-
 .animate__rollIn{animation-duration: 5s;}      
-
 
 .section6{display: flex;
          justify-content: center;
          margin-bottom: 40px;}
 
 
-.section7{display: flex;
-          flex-direction: row;}
-  
+/* COMIENZA FOOTER */
+
 .footer{background-color: #c986eb;
         font-family: 'Lato', sans-serif;
         font-size: 18px;
         text-align: center;}     
-       
+
+.section7{display: flex;
+          flex-direction: row;}
        
 
 
-/* TAMAÑO MOBILE */
+/* ESTILOS MOBILE */
 
 @media (max-width: 540px) {
 
-         h1 {display: none;}
+        .body{overflow-x: hidden;}
 
+
+/* COMIENZA HEADER */
+
+         h1 {display: none;}
 
         .logo-fixed{width: 15vw;
                     z-index: 100px;}
 
-
         .banner{width: 100vw;}
-
 
         .navbar{display: flex;
                 flex-direction: column;
@@ -291,63 +265,73 @@ p{color: #242424;
                 justify-content: center;}
 
 
+/* COMIENZA DESCRIPCIÓN */
+
         .section{display: flex;
                  flex-direction: column;
                  align-items: center;}
 
-
         .section p{width: 100%;
-                text-align: center;
-                vertical-align: middle;}
-
-
+                   text-align: center;
+                   vertical-align: middle;}
 
         .img-descripcion{width: 88%;
-                    vertical-align: middle;}
+                        vertical-align: middle;}
 
+
+/* COMIENZA NUESTRA EXPERIENCIA */
 
         .section0{display: flex;
                   flex-direction: column;
                   align-items: center;}
 
 
+/* COMIENZA SECCIÓN NOSOTROS */    
+
         .section1{display: flex;
                   flex-direction: column;
                   align-items: center;}
-
 
         .section1 p{width: 100%;
                     text-align: center;
                     vertical-align: middle;}
 
-
         .entradaNosotros{width: 88%;
                          vertical-align: middle;}
-
 
         .section2{display: flex;
                   flex-direction: column;
                   align-items: center;}
-
 
         .objetivo{width: 100%;
                   text-align: center;
                   vertical-align: middle;}
       
 
+/* COMIENZA SECCIÓN SERVICIOS */
+
         .section3{display: flex;
                   flex-direction: column;
                   justify-content: center;
                   align-items: center;}
 
+        .table {width: 88%;
+                vertical-align: middle;}
+        
+        .globoServicios{max-width: 88%;
+                        vertical-align: middle;}  
+
+
+/* COMIENZA SECCIÓN GALERÍA */  
+
         .section4{display: flex;
                   flex-direction: column;
                   align-items: center;}      
 
-
         .carousel{width: 100%;} 
 
            
+/* COMIENZA SECCIÓN CONTACTO */
 
         .section5{display: flex;
                   flex-direction: column;
@@ -359,11 +343,14 @@ p{color: #242424;
                   align-items: center;}
        
 
-        .map-responsive{overflow-x: hidden;
-                        width: 100%;
+        .map-responsive{width: 100%;
+                        overflow-x: hidden;
                         vertical-align: middle;}
                               
         
-   
+/* COMIENZA FOOTER */
 
+        .footer{width: 100%;
+                text-align: center;
+                vertical-align: middle;}
        
