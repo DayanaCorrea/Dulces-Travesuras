@@ -1,0 +1,47 @@
+.section1 {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          background-color: #eb86a8;
+
+
+        p {
+           width: 690px;
+           height: 185px;
+           color: #242424;
+           text-align: right;
+           font-size: 16px;
+           margin-top: 100px;
+           font-family: 'Lato', sans-serif;
+        }
+
+        .entradaNosotros {
+                         height: 350px;
+                         margin-top: 35px;
+                         margin-bottom: 30px;
+                         margin-left: 20px;
+                         margin-right: 20px;
+        }
+}
+
+.section2 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background: rgb(238, 174, 202);
+          background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(156, 148, 233, 1) 100%);
+
+
+
+        .objetivo {
+                width: 690px;
+                color: #242424;
+                text-align: center;
+                font-size: 16px;
+                margin-top: 35px;
+                margin-bottom: 30px;
+                font-family: 'Lato', sans-serif;
+        }
+}

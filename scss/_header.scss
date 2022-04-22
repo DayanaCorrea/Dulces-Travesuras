@@ -1,0 +1,50 @@
+header {
+    .logo-fixed {
+        width: 8vw;
+        z-index: 100px;
+        position: fixed;
+    }
+
+    .banner {
+        width: 100vw;
+        height: 40vh;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    .navbar {
+        background: rgb(131, 58, 180);
+        background: linear-gradient(77deg, rgba(131, 58, 180, 1) 0%, rgba(221, 194, 220, 0.8211659663865546) 53%, rgba(252, 176, 69, 1) 100%);
+
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+
+            li {
+                font-family: 'verdana', sans-serif;
+                color: #0c0101;
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 700;
+                margin: 5px;
+                padding: 5px;
+                background-color: #f54ea2;
+
+                a {
+                    list-style-type: none;
+                    color: #0b8dd8;
+
+                    &:hover {
+                        color: #f5e44e;
+
+                    }
+                }
+            }
+        }
+    }
+}
