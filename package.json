@@ -1,7 +1,7 @@
 {
   "name": "git",
   "version": "1.0.0",
-  "description": "",
+  "description": "Salón para todo tipo de eventos, tanto de niños como adultos, con capacidad para 60 personas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

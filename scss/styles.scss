@@ -1,97 +1,13 @@
-Header {
-    .logo-fixed {
-        width: 10vw;
-        z-index: 100px;
-        position: fixed;
-    }
-
-    h1 {
-        text-align: center;
-        color: #ff0496;
-        text-transform: uppercase;
-        font-family: 'Kalam', cursive;
-        font-weight: bold;
-        top: 70px;
-        left: 500px;
-        right: 500px;
-        position: absolute;
-        background-color: hsl(305, 70%, 82%);
-    }
-
-    .banner {
-        width: 100vw;
-        height: 50vh;
-        padding: 0px;
-        margin: 0px;
-    }
-
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background: rgb(131, 58, 180);
-    background: linear-gradient(77deg, rgba(131, 58, 180, 1) 0%, rgba(221, 194, 220, 0.8211659663865546) 53%, rgba(252, 176, 69, 1) 100%);
-}
+@import "variables";
+@import "global";
+@import "header";
+@import "descripcion";
+@import "experiencia";
+@import "nosotros";
+@import "servicios";
+@import "galeria";
+@import "contacto";
+@import "footer";
 
 
-.navbar li {
-    font-family: 'verdana', sans-serif;
-    color: #0c0101;
-    text-transform: uppercase;
-    text-align: center;
-    display: inline;
-    font-size: 14px;
-    font-weight: 600;
-    list-style-type: none;
-    margin: 5px;
-    padding-right: 80px;
-    padding: 5px;
-    position: static;
-    background-color: #f54ea2
-}
-
-
-.section1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: #eb86a8;
-
-    p {width: 25vw;
-       height: 25vh;
-       font-family: 'Lato', sans-serif;
-       text-align: center;
-
-        .entradaNosotros {
-            width: 25vw;
-            height: 25vh;
-        }
-    }
-}
-
-.section2{display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(156, 148, 233, 1) 100%);
-
-    .objetivo{width: 690px;
-    color: #242424;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-top: 35px;
-    margin-bottom: 30px;
-    font-family: 'Lato', sans-serif;
-}
-}
-.footer{background-color: #c986eb;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    text-align: center;}
 
