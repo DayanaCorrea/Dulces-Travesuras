@@ -24,3 +24,22 @@
         margin-right: 20px;
     }
 }
+
+.section03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 176, 106);
+    .table {
+        width: 400px;
+        height: 350px;
+        text-align: center;
+        top: 5px;
+        left: 20px;
+        margin: 25px;
+        padding: 50px;
+        border-color: #0c0101;
+        background-color: #82c0f3;
+    }
+}

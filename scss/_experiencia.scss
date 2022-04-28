@@ -3,31 +3,21 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
     align-items: center;
     background: rgb(202, 41, 92);
     background: linear-gradient(90deg, rgba(202, 41, 92, 1) 4%, rgba(253, 29, 29, 0.3785889355742297) 38%, rgba(184, 122, 226, 1) 70%, rgba(252, 176, 69, 1) 94%);
 }
 
-.jugando {
-    width: 350px;
-    height: 250px;
-    top: 10px;
-    margin: 25px;
-    padding: 50px;
+.card-body {
+    background-color: #c986eb;
 }
 
-.boda {
-    width: 350px;
-    height: 250px;
-    top: 10px;
-    margin: 25px;
-    padding: 50px;
+.card-body:hover {
+    background-color: #f3a566;
 }
 
-.quinceañera {
-    width: 350px;
-    height: 250px;
-    top: 10px;
-    margin: 25px;
-    padding: 50px;
+.btn:hover {
+    border-color: #020b31;
 }
