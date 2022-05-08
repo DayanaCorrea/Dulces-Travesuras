@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../imagenes/logo.favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../imagenes/logo-favicon.ico" type="image/x-icon">
     <title>Contacto - Dulces Travesuras</title>
     <meta name="description"
         content="Chequea nuestras redes sociales por más información o consultanos a través de las vías de contacto">
@@ -14,10 +14,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body class="body">
+    
     <header>
         <div class="logo">
             <a href="../index.html">
@@ -25,7 +26,7 @@
             </a>
         </div>
         <div>
-            <img class="banner" src="../imagenes/banner-contacto.png" alt="banner" title="banner pagina principal">
+            <img class="banner" src="../imagenes/banner-contacto.png" alt="banner" title="banner pagina contacto">
         </div>
 
         <h1 class="animate__animated animate__zoomIn">Contacto</h1>
@@ -51,7 +52,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../paginas/galeria.html">Galería</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
                         </li>
@@ -63,7 +63,7 @@
     </header>
 
     <main>
-        <h2 class="animate__animated animate__rollIn">Contáctenos</h2>
+        <h2 class="animate__animated animate__rollIn">Contáctanos</h2>
 
         <section class="section5">
 
@@ -96,8 +96,8 @@
 
                     <p>
                         <label for="mensaje" class="colocar_mensaje">Mensaje</label>
-                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
-                            placeholder="Deje un mensaje"></textarea>
+                        <input type="introducir_mensaje" name="texto_mensaje" id="mensaje"
+                            placeholder="Deje un mensaje">
                     </p>
 
                     <button type="submit" name="enviar_formulario" id="enviar">
@@ -116,14 +116,14 @@
                 <h3>Vías de contacto</h3>
 
                 <h4>Dirección:</h4>
-                <p>Luis B Berres 4400, Belvedere</p>
+                <p class="contacto">Luis B Berres 4400, Belvedere</p>
 
                 <h4>Teléfono:</h4>
-                <p>(598) 2309 0560</p>
-                <p>(598) 098 183 779</p>
+                <p class="contacto">(598) 2309 0560</p>
+                <p class="contacto">(598) 098 183 779</p>
 
                 <h4>Email:</h4>
-                <p><a href="info@salondulcestravesuras.com.uy">info@salondulcestravesuras.com.uy</a></p>
+                <p class="contacto">info@salondulcestravesuras.com.uy</p>
             </div>
         </section>
 
@@ -151,6 +151,7 @@
 
         <p>Teléfono de contacto: 098 183 779 - Dirección: Luis B. Berres 4400 - E-mail:
             info@salondulcestravesuras.com.uy - Todos los derechos reservados</p>
+        <p class="firma">Desarrolladora Web - Dayana Correa - www.linkedin.com/in /dayanac</p>
     </footer>
 
 

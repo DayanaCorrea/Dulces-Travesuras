@@ -1,0 +1,30 @@
+.card-title {
+  color: #242424;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  background-color: #969df157;
+}
+
+.btn-secondary {
+  margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #242424;
+  background-color: rgb(238, 176, 106);
+}
+
+.btn-secondary:hover {
+  background-color: #700a2c57;
+  border-color: rgb(241, 10, 153);
+  color: #010311;
+}

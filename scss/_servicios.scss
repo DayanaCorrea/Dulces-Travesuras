@@ -6,6 +6,8 @@
     .table {
         width: 400px;
         height: 350px;
+        font-family: 'verdana', sans-serif;
+        color: #000000;
         text-align: center;
         top: 5px;
         left: 20px;
@@ -25,21 +27,35 @@
     }
 }
 
+.patioInterno {
+    width: 350px;
+    height: 350px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .section03 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(238, 176, 106);
+
     .table {
-        width: 400px;
+        width: 350px;
         height: 350px;
+        font-family: 'verdana', sans-serif;
+        color: #000000;
         text-align: center;
+        font-size: 18px;
         top: 5px;
         left: 20px;
         margin: 25px;
         padding: 50px;
         border-color: #0c0101;
-        background-color: #82c0f3;
+        background: #833ab4;
+        background: linear-gradient(77deg, #c18ce4 0%, rgba(221, 194, 220, 0.821166) 53%, #d8a762 100%);
     }
 }

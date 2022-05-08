@@ -5,20 +5,23 @@
 
 
         p {
-          color: map-get($estilos, color);
-          font-family: map-get($estilos, family);
-          font-size: map-get($estilos, size);
-          text-align: map-get($estilos, align);
-          margin-top: map-get($estilos, top);
-}
+                color: map-get($estilos, color);
+                font-family: map-get($estilos, family);
+                font-size: map-get($estilos, size);
+                text-align: map-get($estilos, align);
+                margin-top: map-get($estilos, top);
+                width: 690px;
+                height: 185px;
+        }
 
-.entradaNosotros {
-        height: 350px;
-        margin-top: 35px;
-        margin-bottom: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
-}
+        .entradaNosotros {
+                width: 40vw;
+                height: 50vh;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                margin-left: 20px;
+                margin-right: 20px;
+        }
 }
 
 .section2 {
@@ -34,7 +37,7 @@
         .objetivo {
                 width: 690px;
                 color: #242424;
-                text-align: center;
+                text-align: justify;
                 font-size: 16px;
                 margin-top: 35px;
                 margin-bottom: 30px;

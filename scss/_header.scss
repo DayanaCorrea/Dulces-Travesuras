@@ -24,7 +24,7 @@ header {
 
             li {
                 font-family: 'verdana', sans-serif;
-                color: #0c0101;
+                color: #000000;
                 text-transform: uppercase;
                 text-align: center;
                 font-size: 14px;
@@ -33,15 +33,7 @@ header {
                 padding: 5px;
                 background-color: #f54ea2;
 
-                a {
-                    list-style-type: none;
-                    color: #0b8dd8;
 
-                    &:hover {
-                        color: #f5e44e;
-
-                    }
-                }
             }
         }
     }

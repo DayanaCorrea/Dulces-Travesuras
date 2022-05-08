@@ -3,21 +3,32 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
     align-items: center;
     background: rgb(202, 41, 92);
     background: linear-gradient(90deg, rgba(202, 41, 92, 1) 4%, rgba(253, 29, 29, 0.3785889355742297) 38%, rgba(184, 122, 226, 1) 70%, rgba(252, 176, 69, 1) 94%);
-}
 
-.card-body {
-    background-color: #c986eb;
-}
+    .card {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
-.card-body:hover {
-    background-color: #f3a566;
-}
+    .card-body {
+        background-color: #c986eb;
+    }
 
-.btn:hover {
-    border-color: #020b31;
+
+    .card-body:hover {
+        background-color: #f3a566;
+    }
+
+    .btn {
+        color: #242424;
+        background-color: #8ed2e7;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Geneva, Tahoma, sans-serif, sans-serif;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        border-color: #020b31;
+    }
 }
