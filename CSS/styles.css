@@ -314,8 +314,6 @@ footer {
     font-size: 12px; }
 
 @media (max-width: 540px) {
-  .body {
-    overflow-x: hidden; }
   h1 {
     display: none; }
   header .logo-fixed {
